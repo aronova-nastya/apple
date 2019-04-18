@@ -1,14 +1,87 @@
 <html>
     <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
     <title>Форма</title>
     </head>
         <body>
+        
+        <h1>Вакансия: Junior Frontend Developer</h1>
+        <div id="photo" style="margin-left: 1%">
+
+        <div style="display: inline-block"> 
+        <img src="g1.png" width="200"  alt="photo"> </div>
+
+        <div style="display: inline-block; vertical-align: top; margin-left:2%">
+        <p>Имя: Анастасия</p>
+        <p><a href="https://github.com/aronova-nastya/apple.git">Ссылка на репозиторий</a></p>
+        <p>Опыт работы: нет</p> </div> </div>
+
         <form>
-        <h1 >Вакансия: Junior Frontend Developer</h1>
-        <img align="left" border="0" hspace="20" px src="g1.png" width="200" hight="200" alt="photo">
-        <b>Имя: Анастасия</b>
+            
+            <p>     <label for="date">Дата собеседования: </label><input type="date"><i class="far fa-calendar"></i></p>
+            
+            <p> <label>Уровень английского:</label></p>
+                <label><input type="radio" name="eng" value="bad">Плохо</label>
+                <label><input type="radio" name="eng" value="middle">Средне</label>
+                <label><input type="radio" name="eng" value="good">Хорошо</label>
+                <label><input type="radio" name="eng" value="perfect">Превосходно</label>
+                
+            <p> <label>Ключевые навыки:</label> </p>
+                <ul>
+                        <li>HTML</li>
+                        <li>CSS/LESS</li>
+                        <li>JavaScript</li>
+                        <li>...</li>
+                    </ul>
+                    <input type="text" name="skills" placeholder="Введите навык" >
+                    <input type="button" name="button_skils" value="Добавить в список">
+               
+            <p> <label>Коммуникабельность:</label></p>
+            <select>
+                    <option disabled>Выберите значение</option>
+                    <option value="good">Харизматичный и обаятельный</option>
+                    <option value="middle">Малообщительный</option>
+                    <option value="bad">Вообще не общительный</option>
+            </select>
+
+            <p> <label>Желаемая зп:</label> <input type="text" name="dreams" value="" placeholder="Мечтать не вредно"></p>
+
+            <p><label>Подходит по критериям:</label></p>
+               <label><input type="checkbox" id="eng" name="ok_eng" value="ok">Знание английского</label>
+               <label><input type="checkbox" id="dreams" name="ok_dreams" value="ok">Оклад</label>
+               <label><input type="checkbox" id="skills" name="ok_skills" value="ok">Навыки</label>
+               <label><input type="checkbox" id="person" name="ok_person" value="ok">Свой человек</label>
+
+            <p><label>Образование, курсы и т.п.</label></p>
+                <table border>
+                    <thead>
+                        <tr>
+                                <td>#</td>
+                                <td>Сроки обучения</td>
+                                <td>Название учебного заведения,название курсов</td>
+                        </tr>
+                    </thead>
+                    <tr>
+                            <td>1</td>
+                            <td>01.09.2003-29.05.2012</td>
+                            <td>Осознание тщетности бытия</td>
+                    </tr>
+                    <tr>
+                            <td>2</td>
+                            <td>01.09.2012-17.04.16</td>
+                            <td>Более глубокое осознание тщетности бытия</td>
+                    </tr>
+                    <tr>
+                            <td>3</td>
+                            <td>08.08.16-10.02.18</td>
+                            <td>Свободное плавание</td>
+                    </tr>
+                </table>
+
+        <p>     <button type="submit">Submit</button></p>
         </form>
         </body> 
 </html>

@@ -1,0 +1,65 @@
+form{
+    width: 600px;
+    margin: 0 auto;
+}    
+
+* {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+h1 {
+    color: rebeccapurple ;
+}
+
+#photo {
+    display: inline-block;
+    border: 3px solid;
+    border-color: rebeccapurple;
+}
+
+#img-side {
+    margin-left: 1%;
+    color:  rebeccapurple;
+}
+
+#img-bottom {
+    display: inline-block;
+    vertical-align: top;
+    margin-left:2%;
+    font-size: 18px;
+}
+
+label {
+    color: rebeccapurple;
+}
+
+
+li {
+    color: navy;
+}
+
+#button-1 {
+    color: darkblue;
+}
+
+select {
+    color: purple;
+}
+
+table {
+    border: 2px dashed;
+    border-collapse: collapse;
+}
+
+thead {
+    border: 1px solid;
+}
+
+tr {
+    border: 1px solid;
+}
+
+td {
+    border: 1px solid;
+    color: mediumblue;
+}

@@ -1,6 +1,8 @@
 form{
     width: 600px;
     margin: 0 auto;
+    background: linear-gradient(to bottom, #ffd6bc,#fc9d62);
+    padding: 10px;S
 }    
 
 * {

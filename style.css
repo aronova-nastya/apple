@@ -2,8 +2,50 @@ form{
     width: 600px;
     margin: 0 auto;
     background: linear-gradient(to bottom, #ffd6bc,#fc9d62);
-    padding: 10px;S
+    padding: 10px;
 }    
+
+a {
+    text-decoration: none;
+    color: darkmagenta;
+}
+
+a:hover {
+    color: deeppink;
+}
+
+#button-1 {
+    padding: 0.8%;
+    border: ridge 1px ;
+    border-color: dimgray;
+    border-radius: 5px;
+    color: darkblue;
+    box-shadow: 5px 5px 10px 5px darkgray;
+    cursor: pointer;
+}
+
+button {
+    padding: 0.8%;
+    border: ridge 1px ;
+    border-color: dimgray;
+    border-radius: 5px;
+    color: darkblue;
+    box-shadow: 5px 5px 10px 5px darkgray;
+    cursor: pointer;
+}
+
+#button-1:hover {
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.tr-light:hover {
+    background-color: lightcoral;
+    color: darkslateblue;
+}
 
 * {
     font-family: Comic Sans MS, Comic Sans, cursive;
@@ -17,6 +59,10 @@ h1 {
     display: inline-block;
     border: 3px solid;
     border-color: rebeccapurple;
+}
+
+input {
+    outline: none;
 }
 
 #img-side {
@@ -40,12 +86,9 @@ li {
     color: navy;
 }
 
-#button-1 {
-    color: darkblue;
-}
-
 select {
     color: purple;
+    cursor: pointer;
 }
 
 table {
@@ -64,4 +107,8 @@ tr {
 td {
     border: 1px solid;
     color: mediumblue;
+}
+
+.klick {
+    cursor: pointer;
 }
